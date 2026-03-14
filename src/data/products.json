@@ -1,0 +1,222 @@
+[
+    {
+        "id": "chettinad-modern-bed",
+        "slug": "chettinad-modern-bed",
+        "name": "Chettinad Modern Bed",
+        "category": "luxury-beds",
+        "subcategory": "platform-beds",
+        "price": 50000,
+        "images": ["/images/products/chettinad-bed.webp"],
+        "shortDescription": "Inspired by Chettinad geometry. Built to last a generation."
+    },
+    {
+        "id": "rattan-frame-sofa",
+        "slug": "rattan-frame-sofa",
+        "name": "Kerala Rattan Frame Sofa",
+        "category": "theme-homes",
+        "subcategory": "goan",
+        "price": 85000,
+        "images": ["/images/products/rattan-sofa.webp"],
+        "shortDescription": "Nature's geometry. Handwoven perfection."
+    },
+    {
+        "id": "rajasthani-dining-table",
+        "slug": "rajasthani-dining-table",
+        "name": "Rajasthani Carved Dining Table",
+        "category": "greathouses",
+        "subcategory": "dining",
+        "price": 120000,
+        "images": ["/images/products/dining-table.webp"],
+        "shortDescription": "Six centuries of craft tradition at your dining room."
+    },
+    {
+        "id": "kerala-pooja-cabinet",
+        "slug": "kerala-pooja-cabinet",
+        "name": "Kerala Heritage Pooja Cabinet",
+        "category": "greathouses",
+        "subcategory": "living",
+        "price": 35000,
+        "images": ["/images/products/pooja-cabinet.webp"],
+        "shortDescription": "A sacred space, beautifully crafted."
+    },
+    {
+        "id": "rattan-canopy-bed",
+        "slug": "rattan-canopy-bed",
+        "name": "Rattan Canopy Bed",
+        "category": "luxury-beds",
+        "subcategory": "canopy-beds",
+        "price": 75000,
+        "images": ["/images/products/canopy-bed.webp"],
+        "shortDescription": "Natural rattan canopy, artisan-crafted for dreamy spaces."
+    },
+    {
+        "id": "smart-executive-desk",
+        "slug": "smart-executive-desk",
+        "name": "Smart Executive Desk",
+        "category": "theme-homes",
+        "subcategory": "chettinad",
+        "price": 28000,
+        "images": ["/images/products/executive-desk.webp"],
+        "shortDescription": "Modern productivity meets heirloom craftsmanship."
+    },
+    {
+        "id": "brass-inlay-coffee-table",
+        "slug": "brass-inlay-coffee-table",
+        "name": "Brass Inlay Coffee Table",
+        "category": "theme-homes",
+        "subcategory": "rajasthani",
+        "price": 42000,
+        "images": ["/images/products/brass-coffee-table.webp"],
+        "shortDescription": "Sheesham wood. Brass inlay. Pure artistry."
+    },
+    {
+        "id": "kerala-teak-platform-bed",
+        "slug": "kerala-teak-platform-bed",
+        "name": "Kerala Teak Platform Bed",
+        "category": "luxury-beds",
+        "subcategory": "platform-beds",
+        "price": 65000,
+        "images": ["/images/products/platform-bed.webp"],
+        "shortDescription": "Low, long, and utterly grounded in Indian craft."
+    },
+    {
+        "id": "sheesham-wood-mandir",
+        "slug": "sheesham-wood-mandir",
+        "name": "Sheesham Wood Mandir",
+        "category": "greathouses",
+        "subcategory": "living",
+        "price": 22000,
+        "images": ["/images/products/sheesham-mandir.webp"],
+        "shortDescription": "Sacred and serene, carved from sheesham."
+    },
+    {
+        "id": "cane-barrel-accent-chair",
+        "slug": "cane-barrel-accent-chair",
+        "name": "Cane Barrel Accent Chair",
+        "category": "futuristic",
+        "subcategory": "chairs",
+        "price": 18500,
+        "images": ["/images/products/cane-chair.webp"],
+        "shortDescription": "A statement chair that actually invites you to sit."
+    },
+    {
+        "id": "sliding-mirror-wardrobe",
+        "slug": "sliding-mirror-wardrobe",
+        "name": "Sliding Mirror Wardrobe",
+        "category": "storages",
+        "subcategory": "wardrobes",
+        "price": 55000,
+        "images": ["/images/products/mirror-wardrobe.webp"],
+        "shortDescription": "Space-saving elegance. Full-length mirror, solid teak frame."
+    },
+    {
+        "id": "rajasthani-block-print-sofa",
+        "slug": "rajasthani-block-print-sofa",
+        "name": "Rajasthani Block Print Sofa",
+        "category": "theme-homes",
+        "subcategory": "rajasthani",
+        "price": 95000,
+        "images": ["/images/products/blockprint-sofa.webp"],
+        "shortDescription": "Hand block-printed linen sofa on carved sheesham frame."
+    },
+    {
+        "id": "heritage-platform-bed",
+        "slug": "heritage-platform-bed",
+        "name": "Heritage Platform Bed",
+        "category": "luxury-beds",
+        "subcategory": "platform-beds",
+        "price": 68000,
+        "images": ["/images/products/platform_bed_1_1773495957576.png"],
+        "shortDescription": "Solid teak platform bed with a wabi-sabi finish."
+    },
+    {
+        "id": "minimalist-walnut-bed",
+        "slug": "minimalist-walnut-bed",
+        "name": "Minimalist Walnut Bed",
+        "category": "luxury-beds",
+        "subcategory": "platform-beds",
+        "price": 72000,
+        "images": ["/images/products/platform_bed_2_1773495978459.png"],
+        "shortDescription": "Dark walnut frame for modern minimalist bedrooms."
+    },
+    {
+        "id": "royal-four-poster-bed",
+        "slug": "royal-four-poster-bed",
+        "name": "Royal Four-Poster Bed",
+        "category": "luxury-beds",
+        "subcategory": "canopy-beds",
+        "price": 115000,
+        "images": ["/images/products/canopy_bed_1_1773495998346.png"],
+        "shortDescription": "Regal sheesham wood four-poster with sheer drapes."
+    },
+    {
+        "id": "modern-canopy-retreat",
+        "slug": "modern-canopy-retreat",
+        "name": "Modern Canopy Retreat",
+        "category": "luxury-beds",
+        "subcategory": "canopy-beds",
+        "price": 95000,
+        "images": ["/images/products/canopy_bed_2_1773496022366.png"],
+        "shortDescription": "Contemporary canopy design with organic textures."
+    },
+    {
+        "id": "cane-rattan-nightstand",
+        "slug": "cane-rattan-nightstand",
+        "name": "Cane Rattan Nightstand",
+        "category": "luxury-beds",
+        "subcategory": "nightstands",
+        "price": 12500,
+        "images": ["/images/products/nightstand_1_1773496050827.png"],
+        "shortDescription": "Sophisticated solid wood nightstand with cane accents."
+    },
+    {
+        "id": "grand-marble-island",
+        "slug": "grand-marble-island",
+        "name": "Grand Marble Island",
+        "category": "kitchens",
+        "subcategory": "islands",
+        "price": 145000,
+        "images": ["/images/products/kitchen_island_1_1773496073941.png"],
+        "shortDescription": "Grand teak island with a signature marble top."
+    },
+    {
+        "id": "artisan-leather-stool",
+        "slug": "artisan-leather-stool",
+        "name": "Artisan Leather Stool",
+        "category": "kitchens",
+        "subcategory": "stools",
+        "price": 18000,
+        "images": ["/images/products/bar_stool_1_1773496095690.png"],
+        "shortDescription": "Hand-stitched leather on tapered walnut legs."
+    },
+    {
+        "id": "aero-avant-garde-chair",
+        "slug": "aero-avant-garde-chair",
+        "name": "Aero Avant-Garde Chair",
+        "category": "futuristic",
+        "subcategory": "chairs",
+        "price": 45000,
+        "images": ["/images/products/futuristic_chair_1_1773496116412.png"],
+        "shortDescription": "Avant-garde curves and bronze luxury finishes."
+    },
+    {
+        "id": "orbital-chrome-table",
+        "slug": "orbital-chrome-table",
+        "name": "Orbital Chrome Table",
+        "category": "futuristic",
+        "subcategory": "tables",
+        "price": 32000,
+        "images": ["/images/products/futuristic_table_1_1773496134927.png"],
+        "shortDescription": "Fluid chrome droplet design for modern living."
+    },
+    {
+        "id": "master-fluted-wardrobe",
+        "slug": "master-fluted-wardrobe",
+        "name": "Master Fluted Wardrobe",
+        "category": "storages",
+        "subcategory": "wardrobes",
+        "price": 185000,
+        "images": ["/images/products/wardrobe_1_1773496152961.png"],
+        "shortDescription": "Fluted walnut wardrobe with brushed brass handles."
+    }
+]
