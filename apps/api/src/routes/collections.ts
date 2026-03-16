@@ -131,12 +131,12 @@ const collectionsRoutes: FastifyPluginAsync = async (fastify) => {
       const updated = await fastify.prisma.collection.update({
         where: { id },
         data: {
-          ...(body.name && { name: body.name as string }),
-          ...(body.slug && { slug: body.slug as string }),
-          ...(body.description !== undefined && { description: body.description as string }),
-          ...(body.bannerImage !== undefined && { bannerImage: body.bannerImage as string }),
-          ...(body.featured !== undefined && { featured: body.featured as boolean }),
-          ...(body.sortOrder !== undefined && { sortOrder: body.sortOrder as number }),
+          ...(body.name ? { name: body.name as string } : {}),
+          ...(body.slug ? { slug: body.slug as string } : {}),
+          ...(body.description !== undefined ? { description: body.description as string } : {}),
+          ...(body.bannerImage !== undefined ? { bannerImage: body.bannerImage as string } : {}),
+          ...(body.featured !== undefined ? { featured: body.featured as boolean } : {}),
+          ...(body.sortOrder !== undefined ? { sortOrder: body.sortOrder as number } : {}),
         },
       })
 

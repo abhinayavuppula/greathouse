@@ -47,8 +47,8 @@ export interface User {
   email: string
   name: string
   role: Role
-  createdAt: string
-  updatedAt: string
+  createdAt: string | Date
+  updatedAt: string | Date
 }
 
 export interface AuthTokens {
@@ -155,8 +155,8 @@ export interface Collection {
   bannerImage: string | null
   featured: boolean
   sortOrder: number
-  createdAt: string
-  updatedAt: string
+  createdAt: string | Date
+  updatedAt: string | Date
   _count?: { items: number }
 }
 

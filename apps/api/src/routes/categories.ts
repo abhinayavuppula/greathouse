@@ -117,13 +117,13 @@ const categoriesRoutes: FastifyPluginAsync = async (fastify) => {
       const updated = await fastify.prisma.category.update({
         where: { id },
         data: {
-          ...(body.name && { name: body.name as string }),
-          ...(body.slug && { slug: body.slug as string }),
-          ...(body.description !== undefined && { description: body.description as string }),
-          ...(body.image !== undefined && { image: body.image as string }),
-          ...(body.parentId !== undefined && { parentId: body.parentId as string | null }),
-          ...(body.sortOrder !== undefined && { sortOrder: body.sortOrder as number }),
-          ...(body.visible !== undefined && { visible: body.visible as boolean }),
+          ...(body.name ? { name: body.name as string } : {}),
+          ...(body.slug ? { slug: body.slug as string } : {}),
+          ...(body.description !== undefined ? { description: body.description as string } : {}),
+          ...(body.image !== undefined ? { image: body.image as string } : {}),
+          ...(body.parentId !== undefined ? { parentId: body.parentId as string | null } : {}),
+          ...(body.sortOrder !== undefined ? { sortOrder: body.sortOrder as number } : {}),
+          ...(body.visible !== undefined ? { visible: body.visible as boolean } : {}),
         },
       })
       await cache.del(CacheKeys.categories)
