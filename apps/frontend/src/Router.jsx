@@ -18,6 +18,7 @@ import SearchPage from './pages/SearchPage';
 import LookbookPage from './pages/LookbookPage';
 import ConsultationPage from './pages/ConsultationPage';
 import NotFoundPage from './pages/NotFoundPage';
+import DynamicPage from './pages/DynamicPage';
 
 const Wrap = ({ children }) => (
   <PageTransition>
@@ -30,7 +31,7 @@ const router = createBrowserRouter([
     path: '/',
     element: <RootLayout />,
     children: [
-      { index: true, element: <Wrap><HomePage /></Wrap> },
+      { index: true, element: <Wrap><DynamicPage /></Wrap> }, // Use DynamicPage for home as well
       { path: 'shop', element: <Wrap><ShopAllPage /></Wrap> },
       { path: 'shop/:category', element: <Wrap><CategoryPage /></Wrap> },
       { path: 'product/:slug', element: <Wrap><ProductDetailPage /></Wrap> },
@@ -44,11 +45,15 @@ const router = createBrowserRouter([
       { path: 'search', element: <Wrap><SearchPage /></Wrap> },
       { path: 'lookbook', element: <Wrap><LookbookPage /></Wrap> },
       { path: 'consultation', element: <Wrap><ConsultationPage /></Wrap> },
+      { path: ':slug', element: <Wrap><DynamicPage /></Wrap> }, // Catch all for CMS pages
       { path: '*', element: <Wrap><NotFoundPage /></Wrap> },
     ]
   }
 ]);
 
+import { useTheme } from './hooks/useCMS';
+
 export function AppRouter() {
+  useTheme(); // Apply global theme from CMS
   return <RouterProvider router={router} />;
 }

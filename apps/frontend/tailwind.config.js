@@ -7,6 +7,13 @@ export default {
   theme: {
     extend: {
       colors: {
+        primary:      'var(--color-primary)',
+        secondary:    'var(--color-secondary)',
+        accent:       'var(--color-accent)',
+        background:   'var(--color-background)',
+        text:         'var(--color-text)',
+        muted:        'var(--color-muted)',
+        border:       'var(--color-border)',
         ivory:        'var(--color-ivory)',
         cream:        'var(--color-cream)',
         charcoal:     'var(--color-charcoal)',
@@ -22,7 +29,7 @@ export default {
         success:      'var(--color-success)',
       },
       fontFamily: {
-        display: ['var(--font-display)'],
+        display: ['var(--font-heading)', 'var(--font-display)'],
         accent: ['var(--font-accent)'],
         body: ['var(--font-body)'],
       },
