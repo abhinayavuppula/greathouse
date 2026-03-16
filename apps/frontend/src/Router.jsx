@@ -19,6 +19,10 @@ import LookbookPage from './pages/LookbookPage';
 import ConsultationPage from './pages/ConsultationPage';
 import NotFoundPage from './pages/NotFoundPage';
 import DynamicPage from './pages/DynamicPage';
+import LoginPage from './pages/LoginPage';
+import RegisterPage from './pages/RegisterPage';
+import SpacesPage from './pages/SpacesPage';
+import CollectionsPage from './pages/CollectionsPage';
 
 const Wrap = ({ children }) => (
   <PageTransition>
@@ -45,6 +49,10 @@ const router = createBrowserRouter([
       { path: 'search', element: <Wrap><SearchPage /></Wrap> },
       { path: 'lookbook', element: <Wrap><LookbookPage /></Wrap> },
       { path: 'consultation', element: <Wrap><ConsultationPage /></Wrap> },
+      { path: 'login', element: <LoginPage /> },
+      { path: 'register', element: <RegisterPage /> },
+      { path: 'spaces', element: <Wrap><SpacesPage /></Wrap> },
+      { path: 'collections', element: <Wrap><CollectionsPage /></Wrap> },
       { path: ':slug', element: <Wrap><DynamicPage /></Wrap> }, // Catch all for CMS pages
       { path: '*', element: <Wrap><NotFoundPage /></Wrap> },
     ]
