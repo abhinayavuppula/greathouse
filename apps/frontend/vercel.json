@@ -1,6 +1,10 @@
 {
   "rewrites": [
     {
+      "source": "/admin/:path*",
+      "destination": "https://your-cms-railway-domain.up.railway.app/admin/:path*"
+    },
+    {
       "source": "/(.*)",
       "destination": "/index.html"
     }
