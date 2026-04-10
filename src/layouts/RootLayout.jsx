@@ -8,16 +8,17 @@ import { CustomCursor } from '../components/CustomCursor';
 import { CartDrawer } from '../components/CartDrawer';
 import { WhatsAppFloat } from '../components/WhatsAppFloat';
 import { ToastContainer } from '../components/Toast';
+import { TopBar } from '../components/TopBar';
 
 export function RootLayout() {
   useReveal(); // Initialize GSAP scroll-reveal system globally
 
   return (
     <div className="flex flex-col min-h-screen bg-ivory text-charcoal selection:bg-gold selection:text-white">
-      <Ticker />
-      
+      <TopBar />
       <NavBar />
       <CategoryNav />
+      <Ticker />
       
       <main className="flex-grow">
         <Outlet />
