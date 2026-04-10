@@ -51,7 +51,6 @@ export function NavBar() {
             <Link to="/design-trends" className="hover:text-gold transition-colors cursor-none relative after:content-[''] after:absolute after:-bottom-1 after:left-0 after:w-0 after:h-[1px] after:bg-gold hover:after:w-full after:transition-all after:duration-300">Trends</Link>
             <Link to="/lookbook" className="hover:text-gold transition-colors cursor-none relative after:content-[''] after:absolute after:-bottom-1 after:left-0 after:w-0 after:h-[1px] after:bg-gold hover:after:w-full after:transition-all after:duration-300">Lookbook</Link>
           </div>
-          </div>
 
           {/* Icons & CTA */}
           <div className="flex items-center gap-4 md:gap-6">
