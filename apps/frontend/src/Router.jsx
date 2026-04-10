@@ -30,8 +30,6 @@ import RegisterPage from './pages/RegisterPage';
 import UserProfilePage from './pages/UserProfilePage';
 import NotFoundPage from './pages/NotFoundPage';
 import DynamicPage from './pages/DynamicPage';
-import LoginPage from './pages/LoginPage';
-import RegisterPage from './pages/RegisterPage';
 import SpacesPage from './pages/SpacesPage';
 import CollectionsPage from './pages/CollectionsPage';
 
